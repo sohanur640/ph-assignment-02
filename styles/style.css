@@ -25,6 +25,7 @@
     border-radius: 2rem;
     color: white;
     padding: 1rem 2.75rem;
+    font-size: 1rem;
 }
 .btnScondery{
         background-color: #191616;
@@ -32,16 +33,17 @@
         color: white;
         padding: 1rem 2.75rem;
         border: 1px solid white;
+        font-size: 1rem;
 }
 .primaryBg{
     background-color: rgba(17, 17, 17, 1);
 }
 
 .roundImage {
-    width: 200px;  /* Adjust the width as needed */
-    height: 200px; /* Ensure the height is the same as the width for a perfect circle */
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    object-fit: cover; /* This ensures the image covers the entire container */
+    object-fit: cover;
 }
 /* nav bar */
 .navBar{
@@ -71,6 +73,7 @@
     font-weight: normal;
 }
 .banner{
+    font-size: 3rem;
     gap: 5rem;
 }
 .bannerContent{
@@ -85,6 +88,9 @@
 }
 /* main section */
 /* habbity Section */
+.habbitSection{
+    margin-top: 10rem;
+}
 .habbits{
     text-align: center;
 }
@@ -99,8 +105,73 @@
  .habbitTitle{
     font-size: 3rem;
  }
- .habbitDescription{
-   width: 40rem;
+ .habbitDescription{ 
    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+/* Run an Extra Mile Easily  */
+.extraMile{
+    margin-top: 10rem;
+    background-color: #222222;
+    border: 2px solid rgba(255, 255, 255, 0.1) ;
+    padding: 2rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+.extraMileTitle{
+    font-size: 3rem;
+}
+.extraMileDescription{
+    font-size: 1rem;
+}
+ .runningMan{
+    text-align: end;
+    height: 50%;
+    width: 50%;
+    border-radius: 1rem;
+ }
+ /* training and exersice section */
+ .trainingSection{
+    margin-top: 10rem;
+ }
+ .trainingTitle{
+    font-size: 3rem;
+ }
+ .trainingDescription{
+    font-size: 1rem;
+    width: 70%;
+ }
+  .ex1{
+    height:10rem ;
+    width: 15rem;
+ } 
+ .ex2{
+    height: 10rem;
+    width: 32rem;
+ }
+ .ex3{
+    height: 10rem;
+    width: 17rem;
+ }
+ .ex4{
+    height:10rem ;
+    width: 26rem;
+ }
+ .ex5{
+    height: 10rem;
+    width: 18rem ;
+ }
+ .ex6{
+    height: 10rem;
+    width: 21rem;
+ } */
+ .trainingPic{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+    max-height: 30rem;
+    align-items: center;
  }
 /* footer section */
