@@ -1,0 +1,106 @@
+/* font section */
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared styles */
+.displayFlex{
+    display: flex;
+}
+.primaryColor{
+    color: #FFFFFF;
+}
+.color1{
+    color: rgba(255, 255, 255, 0.5);
+}
+.brand{
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-weight: bolder;
+}
+.btnPrimary{
+    background-color: #E6533C;
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem 2.75rem;
+}
+.btnScondery{
+        background-color: #191616;
+        border-radius: 2rem;
+        color: white;
+        padding: 1rem 2.75rem;
+        border: 1px solid white;
+}
+.primaryBg{
+    background-color: rgba(17, 17, 17, 1);
+}
+
+.roundImage {
+    width: 200px;  /* Adjust the width as needed */
+    height: 200px; /* Ensure the height is the same as the width for a perfect circle */
+    border-radius: 50%;
+    object-fit: cover; /* This ensures the image covers the entire container */
+}
+/* nav bar */
+.navBar{
+    justify-content: space-between;
+}
+.navItems{
+    color: #FFFFFF;
+    list-style: none;
+    margin-right: 2.25rem;
+}
+#shape{
+    
+}
+.navlinks{
+    align-items: center;
+    border: rgba(255, 255, 255, 0.1) 2px solid ;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+.navLink{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.banner{
+    gap: 5rem;
+}
+.bannerContent{
+    width: 35rem;
+    margin-left: 11rem;
+}
+.bannerTitle{
+    font-size: 4.5rem;
+}
+.bannerDescription{
+    font-size: 1rem;
+}
+/* main section */
+/* habbity Section */
+.habbits{
+    text-align: center;
+}
+ .habbitExample{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+ }
+ .habbitTitle{
+    font-size: 3rem;
+ }
+ .habbitDescription{
+   width: 40rem;
+   text-align: center;
+ }
+/* footer section */
