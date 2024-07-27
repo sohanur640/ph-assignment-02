@@ -6,6 +6,12 @@
   font-style: normal;
 }
 /* shared styles */
+.primaryFont{
+    font-size: 3rem;
+}
+.secondaryFont{
+    font-size: 1rem;
+}
 .displayFlex{
     display: flex;
 }
@@ -63,28 +69,19 @@
     color: #FFFFFF;
     border-radius: 10px;
     font-weight: 600;
-    font-size: 1rem;
     margin-right: 2rem;
 }
 .navLink{
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 1rem;
     font-weight: normal;
 }
 .banner{
-    font-size: 3rem;
     gap: 5rem;
 }
 .bannerContent{
     width: 35rem;
     margin-left: 11rem;
-}
-.bannerTitle{
-    font-size: 4.5rem;
-}
-.bannerDescription{
-    font-size: 1rem;
 }
 /* main section */
 /* habbity Section */
@@ -102,9 +99,7 @@
     justify-content: center;
     gap: 2rem;
  }
- .habbitTitle{
-    font-size: 3rem;
- }
+
  .habbitDescription{ 
    text-align: center;
    display: flex;
@@ -120,12 +115,6 @@
     border-radius: 1rem;
     justify-content: space-between;
 }
-.extraMileTitle{
-    font-size: 3rem;
-}
-.extraMileDescription{
-    font-size: 1rem;
-}
  .runningMan{
     text-align: end;
     height: 50%;
@@ -135,9 +124,6 @@
  /* training and exersice section */
  .trainingSection{
     margin-top: 10rem;
- }
- .trainingTitle{
-    font-size: 3rem;
  }
  .trainingDescription{
     font-size: 1rem;
@@ -174,4 +160,12 @@
     max-height: 30rem;
     align-items: center;
  }
+ /* BMI Calculator section */
+ .BMI{
+    margin-top: 10rem;
+    margin-right: 10rem;
+    justify-items: center;
+    text-align: center;
+ }
+
 /* footer section */
