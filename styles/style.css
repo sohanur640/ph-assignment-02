@@ -208,4 +208,28 @@
 #btnBMI{
     margin-top: 1rem;
 }
+/* our team section */
+.team{
+    align-items: center;
+    justify-content: center;
+}
+.trainers{
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+  .trainerPic {
+    border-radius: 1.5rem;
+    width: 80%;
+    height: 15rem;
+    display: block;
+  }
+
+  .tr {
+    margin-left: 2rem;
+    margin-top: -5rem;
+    text-shadow: #4a4a4a;
+  }
+ 
 /* footer section */
