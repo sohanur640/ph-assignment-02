@@ -5,6 +5,12 @@
   font-weight: 400;
   font-style: normal;
 }
+#font-face {
+    font-family: "Miama", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    }
 /* shared styles */
 .primaryFont{
     font-size: 3rem;
@@ -63,6 +69,32 @@
 #shape{
     
 }
+.tutorial{
+    border: #9e9d9d 1px solid;
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 5rem;
+    width: 9rem;
+    margin-left: 50rem;
+    margin-top: -25rem;
+}
+.tutorialBtn{
+    font-size: 2rem;
+}
+.workout{
+    border: #9e9d9d 1px solid;
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    padding: 1rem;
+    height: 6rem;
+    width: 10rem;
+    margin-left: 65rem;
+    margin-top: -40rem;
+}
+.workoutVideo{
+     font-size: 3rem;
+}
 .navlinks{
     align-items: center;
     border: rgba(255, 255, 255, 0.1) 2px solid ;
@@ -80,6 +112,7 @@
     gap: 5rem;
 }
 .bannerContent{
+    margin-top: 5rem;
     width: 35rem;
     margin-left: 11rem;
 }
@@ -116,9 +149,12 @@
     justify-content: space-between;
 }
  .runningMan{
+    object-fit: none;
+    object-position: 70% 40%;
+    zoom: 80%;
     text-align: end;
     height: 50%;
-    width: 50%;
+    width: 45%;
     border-radius: 1rem;
  }
  /* training and exersice section */
@@ -152,14 +188,8 @@
  .ex6{
     height: 10rem;
     width: 21rem;
- } */
- .trainingPic{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 100%;
-    max-height: 30rem;
-    align-items: center;
- }
+ } 
+
  /* BMI Calculator section */
  .BMI{
     margin-top: 10rem;
@@ -225,11 +255,60 @@
     height: 15rem;
     display: block;
   }
-
+.trainerRussell{
+    object-fit:cover;
+    object-position: 50% 10%;
+    zoom: -50%;
+}
   .tr {
     margin-left: 2rem;
     margin-top: -5rem;
-    text-shadow: #4a4a4a;
+    text-shadow: #9e9d9d;
   }
  
 /* footer section */
+#footer{
+    margin-top: 5rem;
+    text-align: start;
+}
+#footer1{
+     max-width: 50%;
+}
+
+.footerTitle{
+    
+    color: #E6533C;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.footerDescription{
+    width: 100%;
+    margin-right: 7rem;
+}
+footer  hr{
+    max-width: 90%;
+}
+
+.startedSection{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.startedSectionList{
+    list-style: none;
+}
+.footerLink{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 1.25rem 0rem;
+    margin-bottom: 2rem;
+}
+#copyright{
+    font-size: 1.25rem;
+    text-align: center;
+    height: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
