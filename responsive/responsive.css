@@ -3,6 +3,69 @@ Small device: upto 576 px
 Medium Device: 576px to 992 px 
 Large Device: above 993 px 
  */
-@media screen (max-width: 576 px ){
-    
+ /* small device */
+@media screen and (max-width: 576px) {
+
+    .habbitExample,
+    .banner,
+    .trainers,
+    .chart,
+    .navBar,
+    .card,
+    .startedSection {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        align-items: center;
+    }
+    .extraMile {
+        grid-template-columns: repeat(1, 1fr);
+        object-fit: none;
+        zoom: -5%;
+        align-items: center;
+    }
+    .trainingPic {
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .calculator{
+        max-width: 576px;
+    }
+    .bannerContent{
+        max-width: 100%;
+        margin-left: 0;
+        align-items: center;
+   }
+   header{
+    align-items: start;
+    text-align: start;
+   }
+}
+
+/* Medium Device: 576px to 992 px  */
+@media screen and (min-width: 576.5px) and (max-width: 992px) {
+    .habbitSection1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .chart,
+    .banner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card{
+        margin-left: -48rem;
+    }
+}
+
+/* Large Device: above 993 px  */
+@media screen and (min-width: 993px) {
+    .banner,
+     .habbitExample ,
+    .extraMile,
+    .trainingPic,
+    .inputs,
+    .chart,
+    .trainers,
+    .startedSection 
+    {
+        max-width: 100%;
+    }
 }
